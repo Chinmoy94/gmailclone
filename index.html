@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #4285F4;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #f1f3f4;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+            position: fixed;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .email-list {
+            list-style: none;
+            padding: 0;
+        }
+        .email-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Gmail Clone</div>
+        <div class="user-info">User Info</div>
+    </div>
+    <div class="sidebar">
+        <ul>
+            <li>Inbox</li>
+            <li>Sent</li>
+            <li>Drafts</li>
+            <li>Trash</li>
+        </ul>
+    </div>
+    <div class="content">
+        <ul class="email-list">
+            <li class="email-item">Email 1</li>
+            <li class="email-item">Email 2</li>
+            <li class="email-item">Email 3</li>
+        </ul>
+    </div>
+</body>
+</html>
